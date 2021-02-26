@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".View.Home.HomeActivity1">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgLogo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imgLogo"
+            android:src="@drawable/mall" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/cart" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorBlack2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAll"
+                style="@style/Button.secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_secondary"
+                android:text="@string/all"></Button>
+
+            <Button
+                android:id="@+id/btnSmartphone"
+                style="@style/Button.primary"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_primary"
+                android:text="@string/hp"></Button>
+
+            <Button
+                android:id="@+id/btnElectronic"
+                style="@style/Button.secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_secondary"
+                android:text="@string/electronic"></Button>
+
+            <Button
+                android:id="@+id/btnFood"
+                style="@style/Button.secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_secondary"
+                android:text="@string/food"></Button>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_home_1"
+        android:layout_width="0dp"
+        tools:listitem="@layout/item_home_1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBarHome1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

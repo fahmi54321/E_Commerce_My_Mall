@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlack"
+    android:layout_marginBottom="25dp">
+    <CheckBox
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/img_check"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:button="@drawable/custom_checkbox"></CheckBox>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/img_check"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgGambar"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hp" />
+
+        <TextView
+            android:id="@+id/txtNamaProduct"
+            style="@style/TextView.poppinsMedium12SpWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Infinix Zero 8"
+            app:layout_constraintStart_toEndOf="@+id/imgGambar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtDeskripsi"
+            style="@style/TextView.poppinsReguler10SpGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Hitam"
+            app:layout_constraintStart_toEndOf="@+id/imgGambar"
+            app:layout_constraintTop_toBottomOf="@+id/txtNamaProduct" />
+
+        <TextView
+            android:id="@+id/txtHarga"
+            style="@style/TextView.poppinsBold12SpGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Rp 2.999.999"
+            app:layout_constraintStart_toEndOf="@+id/imgGambar"
+            app:layout_constraintTop_toBottomOf="@+id/txtDeskripsi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/minus" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtJumlah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01"
+            style="@style/TextView.poppinsReguler12SpWhite"/>
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/plus" />
+    </LinearLayout>
+
+</RelativeLayout>

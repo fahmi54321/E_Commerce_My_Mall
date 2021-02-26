@@ -1,0 +1,220 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorGold1</item>
+        <item name="colorControlActivated">@color/colorGold1</item>
+        <item name="colorControlHighlight">@color/colorGold1</item>
+
+    </style>
+
+<!--    TextView-->
+    <style name="TextView"></style>
+<!--    Medium-->
+    <style name="TextView.poppinsMedium12SpWhite">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsMedium14SpWhite">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="TextView.poppinsMedium12SpGold">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+    <style name="TextView.poppinsMedium14SpGold">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+
+    <!--    Reguler-->
+    <style name="TextView.poppinsReguler9SpWhite">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsReguler10SpWhite">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsReguler12SpWhite">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsReguler14SpWhite">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsReguler16SpWhite">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsReguler18SpWhite">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="TextView.poppinsReguler10SpGold">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+
+    <style name="TextView.poppinsReguler12SpGold">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+    <style name="TextView.poppinsReguler14SpGold">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+    <style name="TextView.poppinsReguler16SpGold">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+    <style name="TextView.poppinsReguler18SpGold">
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+
+    <!--    Bold-->
+    <style name="TextView.poppinsBold10SpWhite">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsBold12SpWhite">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsBold14SpWhite">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="TextView.poppinsBold18SpWhite">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="TextView.poppinsBold24SpWhite">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="TextView.poppinsBold12SpGold">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+    <style name="TextView.poppinsBold14SpGold">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+    <style name="TextView.poppinsBold18SpGold">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+    </style>
+
+<!--    Button-->
+    <style name="Button"></style>
+    <style name="Button.primary_proses">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="Button.primary">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <style name="Button.secondary">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+<!--    EditText-->
+    <style name="EditText"></style>
+    <style name="EditText.primary">
+        <item name="android:textSize">9dp</item>
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="EditText.secondary">
+        <item name="android:textSize">14dp</item>
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+    </style>
+
+    <style name="EditText.third">
+        <item name="android:textSize">14dp</item>
+        <item name="fontFamily">@font/poppins_reguler</item>
+        <item name="android:textColor">@color/colorGold1</item>
+        <item name="android:textColorHint">@color/colorGold1</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+    </style>
+</resources>

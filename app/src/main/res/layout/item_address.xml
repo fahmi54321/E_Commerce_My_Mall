@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/bg_item_address"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/txtNama"
+            style="@style/TextView.poppinsBold12SpGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Raeihan Alvaro"></TextView>
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/custom_radiobutton"></CheckBox>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txtNoHp"
+        style="@style/TextView.poppinsReguler9SpWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="0812 3456 7890" />
+    <TextView
+        android:id="@+id/txtAlamat"
+        style="@style/TextView.poppinsReguler9SpWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Jl. Lingkar Mega Kuningan Kav. E No. 1, The East Building Lt. 27-30, Kota Jakarta Selatan, DKI Jakarta" />
+</LinearLayout>

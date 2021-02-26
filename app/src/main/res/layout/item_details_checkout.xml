@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBlack"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="25dp">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hp" />
+
+    <TextView
+        android:id="@+id/txtNamaProduct"
+        style="@style/TextView.poppinsReguler12SpWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Infinix Zero 8"
+        app:layout_constraintStart_toEndOf="@+id/gambar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        style="@style/TextView.poppinsReguler10SpGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Hitam"
+        app:layout_constraintStart_toEndOf="@+id/gambar"
+        app:layout_constraintTop_toBottomOf="@+id/txtNamaProduct" />
+
+    <TextView
+        android:id="@+id/txtHarga"
+        style="@style/TextView.poppinsBold12SpGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Rp 2.999.999"
+        app:layout_constraintStart_toEndOf="@+id/gambar"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+</androidx.constraintlayout.widget.ConstraintLayout>
