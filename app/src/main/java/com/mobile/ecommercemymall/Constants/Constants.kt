@@ -1,7 +1,7 @@
 package com.mobile.inkadosumbar.Constants
 
 class Constants {
-    val URL = "http://192.168.43.19/Mall/API/"
+    val URL = "https://apajaco.my.id/Mall/API/"
 
-    val URL_Image = "http://192.168.43.19/Mall/foto_products/"
+    val URL_Image = "https://apajaco.my.id/Mall/foto_products/"
 }
